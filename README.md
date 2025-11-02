@@ -2,8 +2,7 @@
 
 **Real-Time 3D Audio Spatialization in the Browser**  
 
-This project enables lifelike **spatial audio rendering** directly on the web using **HRTFs**, **reverberation**, and **shoebox-style acoustic modeling**.  
-Built on top of **Google’s Resonance Audio SDK** and the **Web Audio API**, it allows you to spatialize mono sound sources dynamically and hear the results in real time — right in your browser 🎶.  
+This project enables lifelike **spatial audio rendering** directly on the web using **HRTFs**, **reverberation**, and **shoebox-style acoustic modeling**. Built on top of **Google’s Resonance Audio SDK** and the **Web Audio API**, it allows you to spatialize mono sound sources dynamically and hear the results in real time — right in your browser 🎶.  
 
 ---
 
