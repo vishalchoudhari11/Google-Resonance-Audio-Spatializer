@@ -1,22 +1,67 @@
-# GoogleResonanceAudioSpatializer
+# 🌐 Google Resonance Audio Spatializer
 
-This set of scripts allow one to spatialise sounds through HRTFs, add reverb and model shoebox environments. Makes use of Resonance Audio SDK for the Web, JavaScript and Web Audio API.
+**Real-Time 3D Audio Spatialization in the Browser**  
 
-## Installation
+This project enables lifelike **spatial audio rendering** directly on the web using **HRTFs**, **reverberation**, and **shoebox-style acoustic modeling**.  
+Built on top of **Google’s Resonance Audio SDK** and the **Web Audio API**, it allows you to spatialize mono sound sources dynamically and hear the results in real time — right in your browser 🎶.  
 
-1. Clone this repository to a folder named "GoogleResonanceAudioSpatializer" on your machine.
-2. Download and install Visual Studio Code from: [https://code.visualstudio.com](https://code.visualstudio.com).
-3. Launch Visual Studio Code.
-4. Click on 'Open Folder' and then navigate to the cloned GitHub directory (named "GoogleResonanceAudioSpatializer").
-5. Install "Live Server" extension on Visual Studio code.
-6. Edit the "spatialise.js" file to set sound source, its trajectory data (from a CSV), edit room properties etc.
-6. Under the "Explorer" pane, right click on "demo.html" file and select "Open With Live Server".
-7. A web page ("demo.html") will open on your default browser (Chrome recommended).
-8. Right-click on the web page, select Inspect, then select the Console tab. The output of JavaScript will be logged here. Helps in monitoring and debugging.
-9. Click on "Click to spatialize!" to start spatializing the sound. While the audio is being spatialized, it can be heard in real-time on the web browser. 
-10. When the spatialisation is complete, the file would be available for download.
-11. Click on the <filename>.wav link in blue to download the spatialized file. 
+---
 
-## Comments Welcome!
+## ⚙️ Installation & Setup
 
-Comments/ideas for building more general features are welcome.
+1. 📦 **Clone the Repository**  
+   ```bash
+   git clone https://github.com/<yourusername>/GoogleResonanceAudioSpatializer.git
+   ```  
+   Ensure the folder is named `GoogleResonanceAudioSpatializer`.
+
+2. 💻 **Install Visual Studio Code**  
+   Download from [code.visualstudio.com](https://code.visualstudio.com).
+
+3. 🚀 **Open the Project**  
+   - Launch **VS Code**  
+   - Go to **File → Open Folder** → select your cloned repo  
+
+4. 🔌 **Install “Live Server” Extension**  
+   - In VS Code, open the **Extensions** tab  
+   - Search for **Live Server** and install it  
+
+5. 🧠 **Edit Parameters**  
+   Modify `spatialise.js` to:  
+   - Set the sound source  
+   - Load trajectory data from a CSV file  
+   - Adjust room properties (dimensions, wall materials, etc.)
+
+6. 🌍 **Run the Demo**  
+   - In the **Explorer** pane, right-click `demo.html` → **“Open With Live Server”**  
+   - The demo will launch automatically in your default browser *(Chrome recommended)*  
+
+7. 🧾 **Monitor & Debug**  
+   - Right-click the webpage → **Inspect → Console**  
+   - View real-time JavaScript logs and spatialization progress  
+
+8. 🎧 **Hear It in Action**  
+   - Click **“Click to Spatialize!”**  
+   - Audio will play in real time with spatial cues applied  
+
+9. 💾 **Download Results**  
+   - Once processing finishes, click the generated `.wav` link to download your spatialized file  
+
+---
+
+## 🚀 Features
+
+- 🔊 **HRTF-based binaural rendering** for realistic sound localization  
+- 🏠 **Shoebox-room modeling** with controllable reverb and reflections  
+- ⚡ **Real-time browser processing** — no external DAW required  
+- 🧩 **JavaScript + Web Audio API** for full transparency and easy modification  
+- 🎯 Built using **Google Resonance Audio SDK** for the Web  
+
+---
+
+## 💬 Feedback & Contributions
+
+Open to feedback, creative extensions, and research-driven improvements!  
+If you’d like to enhance realism (e.g., multi-listener setups, dynamic HRTF switching, or GPU-based processing), feel free to open an issue or PR.  
+
+> ✉️ *Let’s push the boundaries of spatial audio — one waveform at a time!*  
